@@ -82,3 +82,27 @@ li a {
     padding: 3em;
     margin-top: auto;
   }
+
+  h3{
+      text-align: center;
+      color: darkslategray;
+  }
+
+  #action-buttons{
+      text-align: center;
+  }
+
+  .action-form{
+      padding: 2%;
+  }
+
+  .product-finance-buttons{
+      height: 35px;
+      width: 150px;
+      background-color: darkslategray;
+      color: aliceblue;
+  }
+
+  .product-finance-buttons:hover{
+      background-color: darkcyan;
+  }
