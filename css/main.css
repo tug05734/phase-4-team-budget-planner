@@ -1,0 +1,65 @@
+.header{
+    text-align: center;
+    background-color:aliceblue;
+    margin-bottom:-1%;
+    padding: 1%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:darkslategrey;
+}
+
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkslategray;
+}
+
+#logo{
+    width: 7em;
+    height: 7em;
+}
+
+li{
+    float:left
+}
+
+li a {
+    display:block;
+    color: aliceblue;
+    text-align: center;
+    padding: 12px 30px;
+    text-decoration: none;
+  }
+
+  li a:hover{
+    background-color:darkcyan;
+    color:aliceblue;
+  }
+  
+  .active {
+    background-color: darkcyan;
+    color:aliceblue;
+  }
+
+  #mainbody{
+      display: block;
+      padding-left: 20%;
+      padding-right: 20%;
+      padding-top: 1%;
+      background-color: aliceblue;
+  }
+
+  .carousel-item{
+    height: 400px;
+  }
+
+  #pic2{
+      position: relative;
+      top: -150px;
+  }
+
+  #welcome-message{
+      text-align: center;
+      color: darkslategray;
+  }
