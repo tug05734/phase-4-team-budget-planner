@@ -7,6 +7,7 @@ body{
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: aliceblue;
 }
 
 .header{
@@ -105,4 +106,49 @@ li a {
 
   .product-finance-buttons:hover{
       background-color: darkcyan;
+  }
+
+  .display-table{
+      text-align: center;
+  }
+
+  #newData{
+      text-align: center;
+      padding-top: 5%;
+  }
+
+  .add-label{
+      padding-right: 3%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      color:darkslategray;
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;
+      text-align: center;
+  }
+
+  .add-input{
+      background-color: aliceblue;
+      outline-color: darkslategray;
+      color: darkslategray;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .action-button{
+    height: 35px;
+    width: 150px;
+    background-color: darkslategray;
+    color: aliceblue;
+    text-align: center;
+  }
+
+  p.button{
+      text-align: center;
+      padding-top: 3%;
+  }
+
+  .input-label{
+      text-align: center;
   }

@@ -11,9 +11,9 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
     <link rel="title icon" href="images/icon.png">
-    <script src="vendor.js"></script>
+    <script src="product.js"></script>
 
-    <title>Vendor Management</title>
+    <title>Project Management</title>
     <style>
         th,
         td,
@@ -49,36 +49,40 @@
     <div>
         <ul id="navbar">
             <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="productview.html">Vendor Management</a></li>
-            <li><a href="projectview.html">Project Management</a></li>
+            <li><a href="productview.html">Vendor Management</a></li>
+            <li><a class="active" href="projectview.html">Project Management</a></li>
             <li><a href="financeview.html">Finance Management</a></li>
         </ul>
     </div>
 
     <div id="mainbody">
-        <h3>Current Vendors</h3>
+        <h3>Current Deals</h3>
         <div class="display-table">
             <div id="showData"></div>
         </div>
         <p id="newData">
-            <h3>Add Vendor</h3>
+            <h3>Add Deal</h3>
             <div class="input-label">
-                <label class="add-label">Vendor Name:</label><input class="add-input" type="text" id="clientNameInput" /><br />
+                <label class="add-label">Vendor Name:</label><input class="add-input" type="text" id="clientNameInput" /><br/>
+                <label class="add-label">Project Name:</label><input class="add-input" type="text" id="projectNameInput" /><br/>
+                <label class="add-label">Project Manager:</label><input class="add-input" type="text" id="projectManagerInput" /><br/>
                 <input class="action-button" type="button" onclick="AddNewDeal()" value="Add" />
             </div>    
         </p>
         <p id="newData">
-            <h3>Edit Vendor</h3>
+            <h3>Edit Deal</h3>
             <div class="input-label">
-                <label class="add-label">Vendor ID:</label><input class="add-input" type="number" id="vendorIDInput" /><br />
+                <label class="add-label">Deal ID:</label><input class="add-input" type="number" id="vendorIDInput" /><br />
                 <label class="add-label">Vendor Name:</label><input class="add-input" type="text" id="clientNameInput2" /><br />
+                <label class="add-label">Project Name:</label><input class="add-input" type="text" id="projectNameInput2" /><br/>
+                <label class="add-label">Project Manager:</label><input class="add-input" type="text" id="projectManagerInput2" /><br/>
                 <input class="action-button" type="button" onclick="EditDeal()" value="Save" />
             </div>    
         </p>
         <p id="newData">
-            <h3>Delete Vendor</h3>
+            <h3>Delete Deal</h3>
             <div class="input-label">
-                <label class="add-label">Vendor ID:</label><input class="add-input" type="number" id="vendorIDInput2" /><br />
+                <label class="add-label">Deal ID:</label><input class="add-input" type="number" id="vendorIDInput2" /><br />
                 <input class="action-button" type="button" onclick="DeleteRow()" value="Delete" />
             </div>    
         </p>
